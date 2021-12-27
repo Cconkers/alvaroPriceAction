@@ -1,0 +1,20 @@
+
+  <button mat-button [matMenuTriggerFor]="appMenu">Menu</button>
+
+
+<mat-menu #appMenu="matMenu">
+  <button
+  [routerLink]="[item.ruta]"
+  routerLinkActive="item"
+  *ngFor="let item for menuItems" mat-menu-item>{{item.nombre}}</button>
+</mat-menu>
+
+<ul class="list-group">
+  <li
+  class="list-group-item"
+  [routerLink]="[item.ruta]"
+  routerLinkActive="item"
+  *ngFor="let item for menuItems" mat-menu-item>
+  {{item.nombre}}
+  </li>
+</ul>
