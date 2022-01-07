@@ -1,5 +1,8 @@
 header{
-  height: 63vh;
-  background-image: linear-gradient(70deg, rgba(102, 201, 226, 0.71) 37%, rgba(24, 44, 98, 0.71) 100%) ,url("../../../assets/img/newHero.6cc2f696-scaled.jpg");
-  background-size: cover;
+display: flex;
+justify-content: space-around;
+font-size: 0.9rem;
+img{
+  margin: 2rem;
+}
 }

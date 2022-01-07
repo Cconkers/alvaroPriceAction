@@ -1,0 +1,62 @@
+.cabezera{
+width: 100%;
+position: absolute;
+}
+.inicio {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__fondo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 65vh;
+    background-image: linear-gradient(
+        70deg,
+        rgba(102, 201, 226, 0.71) 37%,
+        rgba(24, 44, 98, 0.71) 100%
+      ),
+      url("../../../assets/img/newHero.6cc2f696-scaled.jpg");
+    background-size: cover;
+
+    &-boton {
+      outline: none;
+      color: white;
+      border: none;
+      background-color: #e7c37d;
+      border-radius: 50px;
+      padding: 1rem 2rem 1rem 2rem;
+      margin-top: 2rem;
+      font-size: 1rem;
+      line-height: 1;
+      text-align: center;
+      font-family: Sans-serif;
+      &i {
+        width: 1rem;
+      }
+      &:hover {
+        background-color: #0984e3;
+      }
+    }
+  }
+  h1 {
+    margin-bottom: 20px;
+    font-family: "Barlow Condensed", Sans-serif;
+    font-size: 58px;
+    font-weight: 600;
+    color: #1c3063;
+  }
+  h2{
+    font-size: 2.18rem;
+    font-weight: 500;
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.2;
+    color: #1c3063;
+  }
+}
