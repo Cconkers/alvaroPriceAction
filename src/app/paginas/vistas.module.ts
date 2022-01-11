@@ -16,6 +16,7 @@ import { DeclaracionUSComponent } from './declaracion/declaracion-us/declaracion
 import { PoliticasCookiesUEComponent } from './politicasCookies/politicas-cookies-ue/politicas-cookies-ue.component';
 import { PoliticasCookiesCAComponent } from './politicasCookies/politicas-cookies-ca/politicas-cookies-ca.component';
 import { PoliticasCookiesUSComponent } from './politicasCookies/politicas-cookies-us/politicas-cookies-us.component';
+import { NgxScrollTopModule } from 'ngx-scrolltop';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { PoliticasCookiesUSComponent } from './politicasCookies/politicas-cookie
     PoliticasCookiesUSComponent,
   ],
   imports: [VistasRoutingModule,
+    NgxScrollTopModule,
     NgbModule, MaterialModule],
   exports: [],
 })

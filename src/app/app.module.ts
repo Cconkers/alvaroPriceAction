@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PaginaErrorComponent } from './shared/pagina-error/pagina-error.component';
 import { MaterialModule } from './material/material.module';
+import { NgxScrollTopModule } from 'ngx-scrolltop';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { MaterialModule } from './material/material.module';
     MaterialModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    NgxScrollTopModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
