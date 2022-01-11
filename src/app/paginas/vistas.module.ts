@@ -10,6 +10,12 @@ import { MenuComponent } from '../componentes/menu/menu.component';
 import { CabezeraPaginaComponent } from '../componentes/cabezera-pagina/cabezera-pagina.component';
 import { PiePaginaComponent } from '../componentes/pie-pagina/pie-pagina.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DeclaracionUEComponent } from './declaracion/declaracion-ue/declaracion-ue.component';
+import { DeclaracionCAComponent } from './declaracion/declaracion-ca/declaracion-ca.component';
+import { DeclaracionUSComponent } from './declaracion/declaracion-us/declaracion-us.component';
+import { PoliticasCookiesUEComponent } from './politicasCookies/politicas-cookies-ue/politicas-cookies-ue.component';
+import { PoliticasCookiesCAComponent } from './politicasCookies/politicas-cookies-ca/politicas-cookies-ca.component';
+import { PoliticasCookiesUSComponent } from './politicasCookies/politicas-cookies-us/politicas-cookies-us.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +26,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     PiePaginaComponent,
     CabezeraPaginaComponent,
     MenuComponent,
+    DeclaracionUEComponent,
+    DeclaracionCAComponent,
+    DeclaracionUSComponent,
+    PoliticasCookiesUEComponent,
+    PoliticasCookiesCAComponent,
+    PoliticasCookiesUSComponent,
   ],
   imports: [VistasRoutingModule,
     NgbModule, MaterialModule],
