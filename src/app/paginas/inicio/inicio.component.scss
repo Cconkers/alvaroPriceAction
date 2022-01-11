@@ -1,6 +1,6 @@
-.cabezera{
-width: 100%;
-position: absolute;
+.cabezera {
+  width: 100%;
+  position: absolute;
 }
 .inicio {
   position: relative;
@@ -9,14 +9,22 @@ position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  &__fondo {
+  text-align: center;
+
+  &_titulo2 {
+    word-wrap: break-word;
+    margin: 1rem;
+  }
+
+  &_fondo {
     width: 100%;
+    height: 65vh;
+    min-height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 65vh;
     background-image: linear-gradient(
         70deg,
         rgba(102, 201, 226, 0.71) 37%,
@@ -45,18 +53,175 @@ position: absolute;
       }
     }
   }
-  h1 {
-    margin-bottom: 20px;
-    font-family: "Barlow Condensed", Sans-serif;
-    font-size: 58px;
-    font-weight: 600;
-    color: #1c3063;
+  &_titulo {
+    width: 80%;
+    h1 {
+      word-wrap: break-word;
+      margin-bottom: 20px;
+      font-family: "Barlow Condensed", Sans-serif;
+      font-size: 3.7rem;
+      line-height: 4.5rem;
+      font-weight: 600;
+      color: #1c3063;
+    }
   }
-  h2{
+
+  h2 {
     font-size: 2.18rem;
     font-weight: 500;
-    font-family: 'Roboto',sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 1.2;
     color: #1c3063;
+  }
+
+  &_pie-de-pagina {
+    width: 100%;
+    background-color: #6ec1e4;
+    padding: 2rem;
+
+    &__botones {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 3rem;
+      a {
+        color: #ffffff;
+      }
+      .dropdown-item {
+        color: #3a3a3a;
+        margin: 1rem 0 1rem 0;
+      }
+    }
+
+    &__texto {
+      font-size: 1rem;
+      font-family: "Lato", sans-serif;
+      margin: auto;
+      width: 65%;
+      text-align: left;
+      line-height: 2rem;
+      h5 {
+        margin-top: 3rem;
+        font-weight: 600;
+        color: #2f3f50;
+      }
+      p,
+      em {
+        color: #3a3a3a;
+      }
+      em {
+        font-size: 0.875rem;
+      }
+    }
+    &__iconos {
+      margin-top: 3rem;
+      .margin {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 4rem;
+        margin: auto;
+        width: 65%;
+        a {
+          color: #ffffff;
+          line-height: 8.5em;
+        }
+      }
+      img {
+        width: 7rem;
+      }
+      &___redes-sociales {
+        i {
+          color: #1c3063;
+          margin: 0 2rem 0 2rem;
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
+
+.cuerpo {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  &_tarjeta {
+    margin-left: 1rem;
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+
+    a h3 {
+      color: #1c3063;
+      font-weight: 500;
+      text-decoration: none;
+      font-size: 1.4rem;
+      font-family: "Roboto", sans-serif;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    a.amarillo {
+      color: #e7c37d;
+    }
+
+    a.amarillo:hover {
+      color: #99804f;
+    }
+
+    i {
+      margin-bottom: 1rem;
+      font-size: 3rem;
+      text-decoration: none;
+      position: relative;
+      display: block;
+    }
+
+    p {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #3a3a3a;
+      line-height: 1.86;
+      font-family: "Lato", sans-serif;
+    }
+  }
+  &_titulo {
+    margin: 3rem;
+  }
+  .elementor-image img {
+    width: 30rem;
+  }
+
+  .wp-caption-text {
+    text-align: center;
+    color: #1c3063;
+    font-family: "Barlow Condensed", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    margin-top: 2px;
+  }
+
+  &_texto {
+    width: 90%;
+    &-parrafo {
+      text-align: left;
+      margin: 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #3a3a3a;
+      line-height: 1.86;
+      font-family: "Lato", sans-serif;
+    }
   }
 }

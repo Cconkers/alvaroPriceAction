@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PaginaErrorComponent } from './shared/pagina-error/pagina-error.component';
 import { MaterialModule } from './material/material.module';
 
+
 @NgModule({
   declarations: [AppComponent, PaginaErrorComponent],
   imports: [

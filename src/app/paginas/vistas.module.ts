@@ -9,6 +9,7 @@ import { VistasRoutingModule } from './vistas-routing.module';
 import { MenuComponent } from '../componentes/menu/menu.component';
 import { CabezeraPaginaComponent } from '../componentes/cabezera-pagina/cabezera-pagina.component';
 import { PiePaginaComponent } from '../componentes/pie-pagina/pie-pagina.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PiePaginaComponent } from '../componentes/pie-pagina/pie-pagina.compone
     CabezeraPaginaComponent,
     MenuComponent,
   ],
-  imports: [VistasRoutingModule, MaterialModule],
+  imports: [VistasRoutingModule,
+    NgbModule, MaterialModule],
   exports: [],
 })
 export class VistasModule {}
