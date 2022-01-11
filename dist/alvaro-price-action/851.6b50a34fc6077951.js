@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalvaroPriceAction=self.webpackChunkalvaroPriceAction||[]).push([[851],{2851:(t,c,o)=>{o.r(c),o.d(c,{DeclaracionModule:()=>e});var l=o(9808),n=o(4893);let e=(()=>{class a{}return a.\u0275fac=function(u){return new(u||a)},a.\u0275mod=n.oAB({type:a}),a.\u0275inj=n.cJS({imports:[[l.ez]]}),a})()}}]);
