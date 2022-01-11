@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalvaroPriceAction=self.webpackChunkalvaroPriceAction||[]).push([[660],{4660:(t,l,i)=>{i.r(l),i.d(l,{PoliticasCookiesModule:()=>c});var s=i(9808),a=i(4893);let c=(()=>{class o{}return o.\u0275fac=function(n){return new(n||o)},o.\u0275mod=a.oAB({type:o}),o.\u0275inj=a.cJS({imports:[[s.ez]]}),o})()}}]);
